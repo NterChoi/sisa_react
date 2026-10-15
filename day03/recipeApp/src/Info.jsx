@@ -9,7 +9,7 @@ const difficultyObj = {
 const Info = ({ name, rating, reviewCount, difficulty }) => {
   return (
     <article>
-      <div name={name} />
+      <div>{name}</div>
       <Rating rating={rating}></Rating>
       <ReviewCount reviewCount={reviewCount}></ReviewCount>
       <div>난이도 : {difficultyObj[difficulty]}</div>
